@@ -3,7 +3,6 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 import { NavBar } from "../library/NavBar";
 
-const top = "This is a navbar";
 export const siteTitle = "Small Next.js project";
 
 export default function Layout({

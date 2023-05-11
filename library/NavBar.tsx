@@ -1,6 +1,6 @@
 export const NavBar = () => {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-light" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="https://marvel-filme.fandom.com/de/wiki/Scarlet_Witch">
           <img
@@ -24,7 +24,7 @@ export const NavBar = () => {
       </div>
 
       <div id="navbarBasicExample" className="navbar-menu">
-        <div className="navbar-start">
+        <div className="navbar-center">
           <a className="navbar-item" href={"/"}>Home</a>
 
           <a className="navbar-item" href={"/story"}>Geschichte</a>
