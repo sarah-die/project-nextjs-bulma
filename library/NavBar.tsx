@@ -27,16 +27,16 @@ export const NavBar = () => {
         <div className="navbar-start">
           <a className="navbar-item" href={"/"}>Home</a>
 
-          <a className="navbar-item">Geschichte</a>
+          <a className="navbar-item" href={"/story"}>Geschichte</a>
 
           <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link">More</a>
 
             <div className="navbar-dropdown">
-              <a className="navbar-item">Superkräfte</a>
-              <a className="navbar-item">Trivia</a>
+              <a className="navbar-item" href={"superpower"}>Superkräfte</a>
+              <a className="navbar-item" href={"trivia"}>Trivia</a>
               <hr className="navbar-divider" />
-              <a className="navbar-item">Bilder</a>
+              <a className="navbar-item" href={"pictures"}>Bilder</a>
             </div>
           </div>
         </div>
