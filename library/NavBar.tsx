@@ -1,7 +1,4 @@
-import {inspect} from "util";
-import styles from "./../components/layout.module.css";
 import {useState} from "react";
-import clsx from "clsx";
 
 export const NavBar = () => {
     const [isActive, setIsActive] = useState<boolean>(false);
