@@ -31,7 +31,7 @@ export default function Layout({
           <>
             <Link href="/"></Link>
             <h2>
-              <Link href="/">{top}</Link>
+                <NavBar />
             </h2>
           </>
         )}
