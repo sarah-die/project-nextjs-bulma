@@ -1,9 +1,13 @@
 import {useState} from "react";
 
+// responsible navbar that changes appearance depending on the window size
+
 export const NavBar = () => {
+    // to open and close menu in mobile version
     const [isActive, setIsActive] = useState<boolean>(false);
 
   return (
+      // set is-white to change appearance of links and texts
     <nav className="navbar has-shadow is-white" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="https://marvel-filme.fandom.com/de/wiki/Scarlet_Witch">
