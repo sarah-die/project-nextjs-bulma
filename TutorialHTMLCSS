@@ -17,6 +17,13 @@ OPEN AND CLOSING TAG
 - div = division -> divide content into sections or group elements
 - span = kind of like paragraphs
 - blockquote = quote from another website -> cite="http://www.origin.com"
+- main = main content of a webpage
+- section = defines a certain section
+- article
+- aside
+- header = contains navbar, title, ...
+- footer
+
 
 ONLY <xxx> WHEN THERE IS NO CONTENT INSIDE
 - br = line break
