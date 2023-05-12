@@ -1,0 +1,96 @@
+- HTML = HyperText Markup Language
+- to structure content using HTML tags
+OPEN AND CLOSING TAG
+- p = paragraph text
+- a = anchor = link
+    <a href="www.x.de" >Click here too follow the link</a> -> href = Hyperlink Reference
+- img = image
+- strong = bold
+- em = emphasize = kursiv
+- small
+- h1-6 = heading
+- ul = unordered list -> li = list item
+    <ul>
+        <li>element1</li>
+    </ul>
+- ol = ordered list
+- div = division -> divide content into sections or group elements
+- span = kind of like paragraphs
+- blockquote = quote from another website -> cite="http://www.origin.com"
+
+ONLY <xxx> WHEN THERE IS NO CONTENT INSIDE
+- br = line break
+- hr = horizontal rule -> line that separates content
+- <img src="/../image.svg" alt="text representation of the image">
+
+<!DOCTYPE html> = defines the type of the file
+<html> root tag
+    <head> metadata about the website
+        <title/> is shown on the tab
+    </head>
+    <body> the elements that get rendered to the browser
+        <p>Hello</p> text element
+    </body>
+</html>
+
+BLOCKLEVEL ELEMENTS
+- take up the whole width of a page regardless of content
+- e.g. p, div, h1, h2, ul, li, ...
+- do not nest inline element in block element
+
+
+- CSS = Cascading Style Sheets
+- to style webpages -> change colors, position, effects, font sizes etc.
+    <p style="color: orange"></p>
+- style sheet = a list of CSS rules
+selectors {
+    // declarations
+    color: red,
+    magrin: 20px,
+}
+- user agent stylesheet = default browser styles
+- CSS class:
+.myClass {
+    color: red;
+}
+- classes can be added to different elements
+- style just specific elements which have that class value:
+p.myClass{
+    color: blue;
+}
+- chain classes:
+p.myClass.success{color: green;}
+class="myClass success"
+
+ID'S
+<div id="content" />
+- style in styleSheet:
+#content{ color: red; }
+
+DESCENDANT SELECTORS
+div p{ color: blue; }
+- all p's inside of div are now styled like this
+div .myClass{ color: blue; }
+- all myClass inside of div
+
+ATTRIBUT SELECTORS
+a[href]{ }
+- all anchor tag with href-attribut
+a[href="myRef"]{ }
+- more specific
+href*="soomething"
+- any href that includes something
+href$=".com"
+- any href that ends with .com
+
+CASCADE
+- html elements can inherit CSS properties that are applied to their parents
+- some are automatical inherited, some not. To force it:
+div{
+    border: 10px solid red;
+}
+p{
+    border: inherit;
+}
+
+
