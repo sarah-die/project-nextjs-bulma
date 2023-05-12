@@ -10,7 +10,7 @@ export const NavBar = () => {
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg"
             // override the bulma default
-            style={{maxHeight: 60}}
+            style={{maxHeight: 50}}
           />
         </a>
 
@@ -28,7 +28,6 @@ export const NavBar = () => {
           <span aria-hidden="true"></span>
         </a>
       </div>
-
       <div id="navBar-menu" className={`navbar-menu ${isActive ? "is-active" : ""}`} onClick={() => {setIsActive(!isActive)}}>
         <div className="navbar-end">
             <a className="navbar-item" href={"/"}>Home</a>
