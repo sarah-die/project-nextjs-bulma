@@ -27,6 +27,9 @@ export default function Home(props) {
             <h2>
               <Link href="/anotherPage">To another Page</Link>
             </h2>
+            <h2>
+              <Link href={"/fontsAndColors"}>FontsAndColors</Link>
+            </h2>
           </div>
         </section>
       </main>
