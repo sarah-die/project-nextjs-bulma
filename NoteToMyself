@@ -6,3 +6,5 @@ Lokale Styles
 - Namenskonvention: myPage.modules.css
 - import in der jeweiligen Datei: import { myElement } from "/path.css"
 - Verwendung: classname={myElement}
+// lokale CSS-Dateien immer auf diesem Weg importieren
+import { indexContainer } from "../../styles/index.module.css";

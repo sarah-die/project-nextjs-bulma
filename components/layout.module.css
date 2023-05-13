@@ -1,21 +1,20 @@
-.container {
-  /*display: inline-block;*/
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
-  /*ToDo klären*/
-  border-width: 5px;
-  border-style: solid;
-  border-color: blue;
-}
+/*.container {*/
+/*  !*display: inline-block;*!*/
+/*  max-width: 36rem;*/
+/*  padding: 0 1rem;*/
+/*  margin: 3rem auto 6rem;*/
+/*  border-width: 5px;*/
+/*  border-style: solid;*/
+/*  border-color: blue;*/
+/*}*/
 
-.header {
-  /*flow, damit navBar über gesamte Breite reicht*/
-  display: flow;
-  flex-direction: column;
-  align-items: center;
-}
+/*.header {*/
+/*  !*flow, damit navBar über gesamte Breite reicht*!*/
+/*  display: flow;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*}*/
 
-.backToHome {
-  margin: 3rem 0 0;
-}
+/*.backToHome {*/
+/*  margin: 3rem 0 0;*/
+/*}*/
