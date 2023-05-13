@@ -36,6 +36,9 @@ export default function Home(props) {
             <h2>
               <Link href={"/breadcrumbs"}>Breadcrumbs</Link>
             </h2>
+            <h2>
+              <Link href={"/gridColumns"}>Grid Columns</Link>
+            </h2>
           </div>
         </section>
       </main>
