@@ -1,0 +1,8 @@
+Globale Styles
+- import *nur* in der _app.tsx
+- Verwendung: className="myElement"
+
+Lokale Styles
+- Namenskonvention: myPage.modules.css
+- import in der jeweiligen Datei: import { myElement } from "/path.css"
+- Verwendung: classname={myElement}
