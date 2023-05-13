@@ -1,0 +1,12 @@
+/*globale styles werden in der _app importiert*/
+
+.my-container {
+  /*display: inline-block;*/
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+  /*ToDo klären*/
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+}
