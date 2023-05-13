@@ -21,19 +21,8 @@ export default function Layout({
         {/*Bulma requires this*/}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <NavBar />
-          </>
-        ) : (
-          <>
-            <Link href="/"></Link>
-            <h2>
-                <NavBar />
-            </h2>
-          </>
-        )}
+      <header>
+        <NavBar />
       </header>
       <main>{children}</main>
       {!home && (
