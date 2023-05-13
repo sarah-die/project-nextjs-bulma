@@ -28,7 +28,10 @@ export default function Home(props) {
               <Link href="/anotherPage">To another Page</Link>
             </h2>
             <h2>
-              <Link href={"/fontsAndColors"}>FontsAndColors</Link>
+              <Link href={"/fontsAndColors"}>Fonts and Colors</Link>
+            </h2>
+            <h2>
+              <Link href={"/spacingAndContainers"}>Spacing and Containers</Link>
             </h2>
           </div>
         </section>
