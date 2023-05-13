@@ -2,15 +2,17 @@ import { useState } from "react";
 import clsx from "clsx";
 import Layout from "../../components/layout";
 import Link from "next/link";
+import {hi} from "./index.module.css"
 
-export default function Home() {
+export default function Home(props) {
   const [buttonSize, setButtonSize] = useState<boolean>(true);
 
+console.log(props)
   return (
     <Layout home>
       <main>
         <section className="section">
-          <div className="container">
+          <div className={hi} id="HALLOOOOOO">
             <h1 className="title">Hello World</h1>
             <p className="subtitle">
               My first website 2 with <strong>Bulma</strong>!

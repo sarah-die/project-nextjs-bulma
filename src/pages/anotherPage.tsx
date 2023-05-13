@@ -5,6 +5,7 @@ export default function AnotherPage() {
   return (
     <Layout>
       <Head>
+        {/*  adds title in the tab bar */}
         <title>Another Page</title>
       </Head>
       <section className="section">
