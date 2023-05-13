@@ -1,7 +1,7 @@
 import Layout from "../../components/layout";
 import Head from "next/head";
 
-export default function spacingAndContainers() {
+export default function SpacingAndContainers() {
   return (
     <Layout>
       <Head>
