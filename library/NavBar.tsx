@@ -15,6 +15,7 @@ export const NavBar = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg"
             // override the bulma default
             style={{maxHeight: 50}}
+            alt={"This is a picture"}
           />
         </a>
 
@@ -36,9 +37,9 @@ export const NavBar = () => {
         <div className="navbar-end">
             <a className="navbar-item" href={"/"}>Home</a>
             <a className="navbar-item" href={"/story"}>Geschichte</a>
-            <a className="navbar-item" href={"superpower"}>Superkräfte</a>
-            <a className="navbar-item" href={"trivia"}>Trivia</a>
-            <a className="navbar-item" href={"pictures"}>Bilder</a>
+            <a className="navbar-item" href={"/superpower"}>Superkräfte</a>
+            <a className="navbar-item" href={"/trivia"}>Trivia</a>
+            <a className="navbar-item" href={"/pictures"}>Bilder</a>
         </div>
       </div>
     </nav>
