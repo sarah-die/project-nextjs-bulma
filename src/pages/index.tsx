@@ -42,6 +42,9 @@ export default function Home(props) {
             <h2>
               <Link href={"/responsiveClasses"}>Responsive Classes</Link>
             </h2>
+            <h2>
+              <Link href={"/tabbedContent"}>Tabbed Content</Link>
+            </h2>
           </div>
         </section>
       </main>
