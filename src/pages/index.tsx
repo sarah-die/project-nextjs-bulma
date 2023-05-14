@@ -52,6 +52,9 @@ export default function Home(props) {
             <h2>
               <Link href={"/messageBox"}>Message Box</Link>
             </h2>
+            <h2>
+              <Link href={"/buttons"}>Buttons</Link>
+            </h2>
           </div>
         </section>
       </main>
