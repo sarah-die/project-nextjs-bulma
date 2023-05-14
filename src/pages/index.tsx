@@ -39,6 +39,9 @@ export default function Home(props) {
             <h2>
               <Link href={"/gridColumns"}>Grid Columns</Link>
             </h2>
+            <h2>
+              <Link href={"/responsiveClasses"}>Responsive Classes</Link>
+            </h2>
           </div>
         </section>
       </main>
