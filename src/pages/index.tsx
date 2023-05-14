@@ -24,6 +24,10 @@ export default function Home(props) {
             >
               Button
             </button>
+            <div className="section">
+              Click the following links to see the results of the tutorial
+              chapters
+            </div>
             <h2>
               <Link href="/anotherPage">To another Page</Link>
             </h2>
@@ -44,6 +48,9 @@ export default function Home(props) {
             </h2>
             <h2>
               <Link href={"/tabbedContent"}>Tabbed Content</Link>
+            </h2>
+            <h2>
+              <Link href={"/messageBox"}>Message Box</Link>
             </h2>
           </div>
         </section>
