@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { NavBar } from "../library/NavBar";
+import { mainLayoutContainer, header } from ".//layout.module.css";
 
 export const siteTitle = "Small Next.js project";
 
@@ -20,13 +21,10 @@ export default function Layout({
         {/*Bulma requires this*/}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <header>
+      <header className={header}>
         <NavBar />
       </header>
-      <main
-        className="mainLayoutContainer"
-        id="Outlet"
-      >
+      <main className={mainLayoutContainer} id="Outlet">
         {children}
       </main>
       {!home && (

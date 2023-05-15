@@ -1,16 +1,5 @@
 /*globale styles werden in der _app importiert*/
 
-.mainLayoutContainer {
-  overflow-x: hidden;
-  overflow-y: auto;
-  min-height: 100vh;
-  width: 100%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #31114d;
-  background-color: azure;
-}
-
 /* new class to change the backgroundcolor of one specific button */
 .myGreenButton {
   background-color: #94c770;

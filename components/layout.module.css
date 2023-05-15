@@ -1,3 +1,11 @@
+.mainLayoutContainer {
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f8e9d8;
+}
+
 /*.container {*/
 /*  !*display: inline-block;*!*/
 /*  max-width: 36rem;*/
@@ -8,12 +16,12 @@
 /*  border-color: blue;*/
 /*}*/
 
-/*.header {*/
-/*  !*flow, damit navBar über gesamte Breite reicht*!*/
-/*  display: flow;*/
-/*  flex-direction: column;*/
-/*  align-items: center;*/
-/*}*/
+.header {
+  /*flow, damit navBar über gesamte Breite reicht*/
+  display: flow;
+  flex-direction: column;
+  align-items: center;
+}
 
 /*.backToHome {*/
 /*  margin: 3rem 0 0;*/
