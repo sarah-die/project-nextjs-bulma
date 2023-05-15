@@ -51,6 +51,11 @@ export default function GridColumns() {
           </div>
         </div>
       </section>
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <p>Copyright 2020 My first Bulma Project</p>
+        </div>
+      </footer>
     </Layout>
   );
 }

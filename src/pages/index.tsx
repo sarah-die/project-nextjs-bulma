@@ -41,7 +41,7 @@ export default function Home(props) {
               <Link href={"/breadcrumbs"}>Breadcrumbs</Link>
             </h2>
             <h2>
-              <Link href={"/gridColumns"}>Grid Columns</Link>
+              <Link href={"/gridColumns"}>Grid Columns, Select and Footer</Link>
             </h2>
             <h2>
               <Link href={"/responsiveClasses"}>Responsive Classes</Link>
@@ -59,7 +59,7 @@ export default function Home(props) {
               <Link href={"/cards"}>Cards</Link>
             </h2>
             <h2>
-              <Link href={"/modals"}>Modals</Link>
+              <Link href={"/modals"}>Modals and Forms (input field and checkbox)</Link>
             </h2>
           </div>
         </section>
