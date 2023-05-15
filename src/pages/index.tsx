@@ -55,6 +55,9 @@ export default function Home(props) {
             <h2>
               <Link href={"/buttons"}>Buttons</Link>
             </h2>
+            <h2>
+              <Link href={"/cards"}>Cards</Link>
+            </h2>
           </div>
         </section>
       </main>
