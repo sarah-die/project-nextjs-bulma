@@ -9,3 +9,8 @@
   border-style: solid;
   border-color: blue;
 }
+
+/* new class to change the backgroundcolor of one specific button */
+.myGreenButton {
+  background-color: #94c770;
+}

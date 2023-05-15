@@ -17,7 +17,7 @@ export default function Home(props) {
               My first website 2 with <strong>Bulma</strong>!
             </p>
             <button
-              className={clsx("button", buttonSize ? "is-small" : "is-large")}
+              className={clsx("button", buttonSize ? "is-small" : "is-large", "myGreenButton")}
               onClick={() => {
                 setButtonSize(!buttonSize);
               }}
