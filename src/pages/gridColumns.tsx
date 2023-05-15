@@ -33,6 +33,20 @@ export default function GridColumns() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius.
                 Lorem ipsum dolor sit amet, consectetur.
               </p>
+              <form>
+                <div className="field">
+                  <div className="control mb-6">
+                    <div className="select is-dark">
+                      <select>
+                        <option>small</option>
+                        <option>medium</option>
+                        <option>large</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <button className="button is-primary">Add to Cart</button>
+              </form>
             </div>
           </div>
         </div>
