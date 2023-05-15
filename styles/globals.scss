@@ -1,0 +1,9 @@
+// Example for a new color-class is-orange
+$orange: #ff8606;
+$orange-invert: findColorInvert($orange);
+$custom-colors: ("orange": ($orange, $orange-invert));
+
+// change the primary color
+$primary: blue;
+
+@import "../node_modules/bulma/bulma.sass";
