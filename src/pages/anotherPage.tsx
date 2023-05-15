@@ -10,7 +10,7 @@ export default function AnotherPage() {
       </Head>
       <section className="section">
         {/*  my-container ist eine globale CSS-Property. Diese wird in _app importiert.*/}
-        <div className="mainContainer">
+        <div className="container">
           <h1 className="title">Hello!</h1>
           <h1>Welcome to another page</h1>
         </div>

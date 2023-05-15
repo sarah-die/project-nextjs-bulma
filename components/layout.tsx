@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "./layout.module.css";
 import Link from "next/link";
 import { NavBar } from "../library/NavBar";
 
@@ -13,7 +12,7 @@ export default function Layout({
   home?: boolean;
 }) {
   return (
-    <div>
+    <div id="wholeScreen">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="A basic next.js plus bulma project" />
@@ -24,9 +23,17 @@ export default function Layout({
       <header>
         <NavBar />
       </header>
-      <main>{children}</main>
+      <main
+        className="mainLayoutContainer"
+        id="Outlet"
+      >
+        {children}
+      </main>
       {!home && (
-        <div className={styles.backToHome}>
+        <div
+        // ToDo add styles
+        // className={styles.backToHome}
+        >
           <Link href="/">← Back to home</Link>
         </div>
       )}

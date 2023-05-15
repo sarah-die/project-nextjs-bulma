@@ -1,13 +1,13 @@
 /*globale styles werden in der _app importiert*/
 
-.mainContainer {
-  display: inline-block;
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
-  border-width: 5px;
+.mainLayoutContainer {
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100vh;
+  width: 100%;
+  border-width: 2px;
   border-style: solid;
-  border-color: blue;
+  border-color: #31114d;
 }
 
 /* new class to change the backgroundcolor of one specific button */

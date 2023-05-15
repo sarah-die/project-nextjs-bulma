@@ -4,6 +4,6 @@ $orange-invert: findColorInvert($orange);
 $custom-colors: ("orange": ($orange, $orange-invert));
 
 // change the primary color
-$primary: blue;
+//$primary: blue;
 
 @import "../node_modules/bulma/bulma.sass";
