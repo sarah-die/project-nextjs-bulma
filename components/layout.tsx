@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 import { NavBar } from "../library/NavBar";
-import { mainLayoutContainer, header } from ".//layout.module.css";
+import { mainLayoutContainer, header, backToHome } from "./layout.module.scss";
+import Image from "next/image";
+import arrowLeft from "../public/27323.svg";
 
 export const siteTitle = "Small Next.js project";
 
@@ -29,10 +31,12 @@ export default function Layout({
       </main>
       {!home && (
         <div
-        // ToDo add styles
-        // className={styles.backToHome}
+          className={backToHome}
         >
-          <Link href="/">← Back to home</Link>
+          <Image src={arrowLeft} alt="Arrow Left" width={20} style={{marginRight: 6}}></Image>
+          <Link className="has-text-white" href="/">
+            Back to home
+          </Link>
         </div>
       )}
     </div>
