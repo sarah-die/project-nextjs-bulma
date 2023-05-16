@@ -1,9 +1,19 @@
 // Example for a new color-class is-orange
 $orange: #ff8606;
 $orange-invert: findColorInvert($orange);
-$custom-colors: ("orange": ($orange, $orange-invert));
+$custom-colors: (
+  "orange": (
+    $orange,
+    $orange-invert,
+  ),
+);
 
 // change the primary color
 //$primary: blue;
 
 @import "../node_modules/bulma/bulma.sass";
+
+// ToDo klären, wieso können nur in der Datei, wo die Bulma.sass importiert wird die Bulma-Farbvariablen verwendet werden?
+//.myGreenButton {
+//  background-color: $orange;
+//}
