@@ -14,8 +14,8 @@ export const NavBar = () => {
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg"
             // override the bulma default
-            style={{maxHeight: 50}}
-            alt={"This is a picture"}
+            // style={{maxHeight: 50}}
+            alt={"The picture displays the marvel-logo"}
           />
         </a>
 
