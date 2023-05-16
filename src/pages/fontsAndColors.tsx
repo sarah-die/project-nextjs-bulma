@@ -56,6 +56,7 @@ export default function FontsAndColors() {
         <p className="has-text-light has-background-success">
           has-text-light has-background-success
         </p>
+          <p className="has-background-secondary">has-background-secondary (custom color)</p>
       </section>
     </Layout>
   );
