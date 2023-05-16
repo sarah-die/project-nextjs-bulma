@@ -1,11 +1,13 @@
 //@import "../styles/variables";
-@import "styles/variables";
+//@import "styles/variables";
+@use "styles/variables" as var;
+
 .mainLayoutContainer {
   overflow-x: hidden;
   overflow-y: auto;
   min-height: 100vh;
   width: 100%;
-  background-color: #f8e9d8;
+  background-color: var.$my-background;
 }
 
 /*.container {*/
@@ -27,5 +29,5 @@
 
 .backToHome {
   padding: 1rem;
-  background-color: #800C23;
+  background-color: var.$my-red;
 }

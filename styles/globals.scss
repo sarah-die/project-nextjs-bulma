@@ -1,13 +1,22 @@
 // Example for a new color-class is-orange
 //@import "variables";
+// or
 @use "variables" as var;
 
+// this adds the is-orange class
 $custom-colors: (
   "orange": (
     var.$orange,
     var.$orange-invert,
   ),
+  "secondary": (
+    var.$secondary,
+    var.$secondary-invert,
+    var.$secondary-light,
+    var.$secondary-dark,
+  ),
 );
+
 
 // change the primary color
 //$primary: blue;
